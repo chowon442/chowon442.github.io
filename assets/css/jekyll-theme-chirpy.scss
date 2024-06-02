@@ -21,6 +21,6 @@ body {
   font-family: 'Pretendard-Regular', sans-serif;
 }
 
-.highlighter-rouge {
+.highlighter-rouge, .highlight, code, .rouge-table, .rouge-code, .rouge-code > pre, pre.lineno {
   font-family: 'JetBrains Mono', monospace;
 }
