@@ -14,9 +14,9 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: chowon442의 개발 블로그 # the main title
+title: Chowon's Blog # the main title
 
-tagline: 웹, AI 등 개발 내용 기록용 블로그 # it will display as the sub-title
+tagline: Blog for Web, AI, School Work # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
