@@ -1,6 +1,6 @@
 ---
 title: Writing a New Post
-author: chowon442
+author: chowon
 date: 2024-06-04
 ---
 
@@ -25,3 +25,14 @@ date: 2024-06-04
 - `author` :: 작성자의 정보를 입력한다.
 - `date` :: 게시물이 작성된 일짜와 시간
     - `YYYY-MM-DD`는 `2022-02-18`과 같은 양식을 의미한다.
+
+```python
+# code syntax test
+import time
+time.sleep(10)
+
+def say_hello():
+    print("hi")
+
+say_hello()
+```

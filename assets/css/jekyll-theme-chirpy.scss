@@ -1,26 +1,25 @@
 ---
 ---
 
-@import 'main
-{%- if jekyll.environment == ' production
-  ' -%}
+@use 'main
+{%- if jekyll.environment == ' production ' -%}
   .bundle
 {%- endif -%}
 ';
 
 /* append your custom style below */
 @font-face {
-  font-family: 'Pretendard-Regular';
-  src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
-    format('woff');
-  font-weight: 400;
-  font-style: normal;
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
+        format('woff');
+    font-weight: 400;
+    font-style: normal;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 
 body {
-  font-family: 'Pretendard-Regular', sans-serif;
+    font-family: 'Pretendard-Regular', sans-serif;
 }
 
 .highlighter-rouge,
@@ -30,15 +29,5 @@ code,
 .rouge-code,
 .rouge-code > pre,
 pre.lineno {
-  font-family: 'JetBrains Mono', monospace;
-}
-
-div[class^='language-'] {
-  .code-header {
-    &::before {
-      content: '';
-      background-color: #f78f8b;
-      box-shadow: 1.25rem 0 0 #f7c98b, 2.5rem 0 0 #70dd72;
-    }
-  }
+    font-family: 'JetBrains Mono', monospace;
 }
