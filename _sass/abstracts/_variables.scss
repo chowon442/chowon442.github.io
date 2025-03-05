@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
+        format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
 /* sidebar */
 
 $sidebar-width: 260px !default; /* the basic width */
@@ -26,5 +34,6 @@ $code-icon-width: 1.75rem !default;
 
 /* fonts */
 
-$font-family-base: 'Source Sans Pro', 'Microsoft Yahei', sans-serif !default;
-$font-family-heading: Lato, 'Microsoft Yahei', sans-serif !default;
+$font-family-base: 'Pretendard-Regular', 'Source Sans Pro', 'Microsoft Yahei',
+    sans-serif !default;
+$font-family-heading: 'Pretendard-Regular', Lato, 'Microsoft Yahei', sans-serif !default;

@@ -26,5 +26,8 @@ package-lock.json
 _sass/vendors
 assets/js/dist
 
+# _posts 제외 포스트
+_posts/N)*.md
+
 # etc
 .prettierrc
