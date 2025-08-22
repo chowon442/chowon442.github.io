@@ -2,7 +2,7 @@
 title: "LLM Output 비용 절감하기"
 author: chowon
 date: 2025-08-22
-categories: [LLM]
+categories: [AI, LLM]
 tags: [llm]
 ---
 
