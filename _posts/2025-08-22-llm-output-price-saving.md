@@ -1,5 +1,5 @@
 ---
-title: [Teamie] LLM Output 비용 절감하기
+title: "LLM Output 비용 절감하기"
 author: chowon
 date: 2025-08-22
 categories: [LLM]
